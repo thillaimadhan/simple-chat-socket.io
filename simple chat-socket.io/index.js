@@ -12,7 +12,7 @@ io.on('connection', function(socket){
     io.emit('chat message', msg);
   });
 });
-
+//hi
 http.listen(port, function(){
   console.log('listening on *:' + port);
 });
